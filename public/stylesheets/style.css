@@ -14,7 +14,9 @@
 
 body {
   padding: 20px;
-  font: 15px "Courier Prime", monospace;
+  font-family: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono",
+    "Courier New", monospace;
+  font-size: 15px;
   background-color: rgb(227, 236, 213) !important;
 }
 
