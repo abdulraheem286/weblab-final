@@ -1,8 +1,36 @@
 body {
-  padding: 50px;
-  font: 14px "Lucida Console", "Courier New", monospace;
+  padding: 40px;
+  font: 15px "Lucida Console", "Courier New", monospace;
+  background-color: rgb(224, 234, 245) !important;
 }
 
 a {
   color: #ffd900;
+}
+
+.navbar {
+  background-color: rgb(69, 105, 11) !important;
+  padding: 20px;
+}
+.table thead {
+  background-color: rgb(69, 105, 11) !important;
+}
+.table thead tr th {
+  color: white !important;
+}
+h1 {
+  padding-top: 70px;
+  padding-left: 520px;
+  padding-bottom: 70px;
+}
+
+.heading {
+  padding-left: 430px;
+}
+
+.btn {
+  background-color: white !important;
+  color: rgb(69, 105, 11) !important;
+  border: 2px solid rgb(69, 105, 11) !important;
+  margin-right: 30px;
 }
