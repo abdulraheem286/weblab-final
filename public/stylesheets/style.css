@@ -5,7 +5,7 @@ body {
 }
 
 a {
-  color: #ffd900;
+  color: #f3d00b;
 }
 
 .navbar {
@@ -29,6 +29,10 @@ h1 {
   padding-top: 70px;
   padding-left: 520px;
   padding-bottom: 70px;
+}
+
+.newProduct {
+  float: right;
 }
 
 .star {

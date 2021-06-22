@@ -5,7 +5,7 @@ block content
         .col-sm-8
             h1=title
         .col-sm-4
-            a(href="/products/add", class="btn float-right") Add New Product
+            a(href="/products/add", class="btn newProduct") Add Product
     table.table.table-striped
         thead
             tr
@@ -22,23 +22,23 @@ block content
                     td=product.discription
                     td
                         if product.rating > 0
-                            span(class="fa fa-star checked")
+                            span(class="fa fa-star star")
                         else 
                             span(class="fa fa-star ")
                         if product.rating > 1
-                            span(class="fa fa-star checked")
+                            span(class="fa fa-star star")
                         else 
                             span(class="fa fa-star")
                         if product.rating > 2
-                            span(class="fa fa-star checked")
+                            span(class="fa fa-star star")
                         else 
                             span(class="fa fa-star")
                         if product.rating > 3
-                            span(class="fa fa-star checked")
+                            span(class="fa fa-star star")
                         else 
                             span(class="fa fa-star")
                         if product.rating > 4
-                            span(class="fa fa-star checked")
+                            span(class="fa fa-star star")
                         else 
                             span(class="fa fa-star")
                         td
