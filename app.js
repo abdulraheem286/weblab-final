@@ -42,7 +42,7 @@ app.use(function (err, req, res, next) {
 });
 
 mongoose
-  .connect("mongodb://localhost/productscrud", {
+  .connect("mongodb+srv://admin:admin@finallab.n0yd9.mongodb.net/FinalLab", {
     useNewUrlParser: true,
     useUnifiedTopology: true,
   })
