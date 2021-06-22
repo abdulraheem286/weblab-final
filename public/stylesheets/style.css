@@ -11,7 +11,7 @@ a {
 .navbar {
   background-color: rgb(69, 105, 11) !important;
   padding: 20px;
-  margin-bottom: 20px;
+  margin-bottom: 50px;
 }
 
 .table {
@@ -31,9 +31,7 @@ a {
 }
 
 h1 {
-  padding-top: 70px;
-  padding-left: 520px;
-  padding-bottom: 70px;
+  margin-left: 520px;
   display: inline;
 }
 
