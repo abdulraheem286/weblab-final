@@ -1,5 +1,5 @@
 body {
-  padding: 40px;
+  padding: 20px;
   font: 15px "Lucida Console", "Courier New", monospace;
   background-color: rgb(227, 236, 213) !important;
 }
@@ -25,7 +25,7 @@ h1 {
 }
 
 .heading {
-  padding-left: 430px;
+  padding-left: 300px;
 }
 
 .btn {
