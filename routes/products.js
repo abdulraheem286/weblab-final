@@ -30,7 +30,6 @@ router.get("/products/delete/:id", async function (req, res, next) {
 });
 router.get("/products/cart/:id", async function (req, res, next) {
   let product = await Product.findById(req.params.id);
-  console.log("Add This Product in cart");
   let cart = [];
   if (req.cookies.cart) cart = req.cookies.cart;
   cart.push(product);
