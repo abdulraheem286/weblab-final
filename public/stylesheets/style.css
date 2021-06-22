@@ -1,11 +1,20 @@
+@media screen and (max-width: 1000) {
+  h1 {
+    margin-left: 50px;
+    display: inline;
+  }
+}
+@media screen and (min-width: 1001px) {
+  h1 {
+    margin-left: 500px;
+    display: inline;
+  }
+}
+
 body {
   padding: 20px;
   font: 15px "Lucida Console", "Courier New", monospace;
   background-color: rgb(227, 236, 213) !important;
-}
-
-a {
-  color: #f3d00b;
 }
 
 .navbar {
@@ -28,11 +37,6 @@ a {
 
 .heading {
   padding-left: 300px;
-}
-
-h1 {
-  margin-left: 520px;
-  display: inline;
 }
 
 .newProduct {
