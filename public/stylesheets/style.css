@@ -1,7 +1,7 @@
 body {
   padding: 40px;
   font: 15px "Lucida Console", "Courier New", monospace;
-  background-color: rgb(224, 234, 245) !important;
+  background-color: rgb(227, 236, 213) !important;
 }
 
 a {
@@ -16,7 +16,7 @@ a {
   background-color: rgb(69, 105, 11) !important;
 }
 .table thead tr th {
-  color: white !important;
+  color: rgb(170, 189, 139) !important;
 }
 h1 {
   padding-top: 70px;
@@ -29,7 +29,7 @@ h1 {
 }
 
 .btn {
-  background-color: white !important;
+  background-color: rgb(170, 189, 139) !important;
   color: rgb(69, 105, 11) !important;
   border: 2px solid rgb(69, 105, 11) !important;
   margin-right: 30px;
