@@ -34,3 +34,8 @@ h1 {
   border: 2px solid rgb(69, 105, 11) !important;
   margin-right: 30px;
 }
+
+.top-pad {
+  padding-top: 20px;
+  display: inline;
+}
