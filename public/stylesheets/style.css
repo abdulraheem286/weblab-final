@@ -24,6 +24,10 @@ body {
   margin-bottom: 50px;
 }
 
+.nav-link .nav-brand {
+  color: aliceblue;
+}
+
 .table {
   margin-top: 50px;
 }
