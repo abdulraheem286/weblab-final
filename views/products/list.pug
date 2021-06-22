@@ -25,10 +25,14 @@ block content
                         a(href="/products/edit/"+product._id, class="btn btn-warning") Edit
                         a(href="/products/cart/"+product._id, class="btn btn-info") Add To Cart
                     td
-                        if product.rating > 1
+                        if product.rating > 0
                             span(class="fa fa-star checked")
                         else 
                             span(class="fa fa-star ")
+                        if product.rating > 1
+                            span(class="fa fa-star checked")
+                        else 
+                            span(class="fa fa-star")
                         if product.rating > 2
                             span(class="fa fa-star checked")
                         else 
@@ -38,10 +42,6 @@ block content
                         else 
                             span(class="fa fa-star")
                         if product.rating > 4
-                            span(class="fa fa-star checked")
-                        else 
-                            span(class="fa fa-star")
-                        if product.rating > 5
                             span(class="fa fa-star checked")
                         else 
                             span(class="fa fa-star")
