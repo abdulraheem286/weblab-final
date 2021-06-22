@@ -13,6 +13,11 @@ a {
   padding: 20px;
   margin-bottom: 20px;
 }
+
+.table {
+  margin-top: 50px;
+}
+
 .table thead {
   background-color: rgb(69, 105, 11) !important;
 }
@@ -37,15 +42,16 @@ h1 {
 }
 
 .star {
-  color: rgb(175, 230, 88) !important;
+  color: rgb(114, 179, 12) !important;
+  margin-right: 3px;
 }
 
 .btn {
   background-color: rgb(170, 189, 139) !important;
   color: rgb(52, 82, 3) !important;
-  font-weight: 700;
   border: 2px solid rgb(69, 105, 11) !important;
   margin-right: 30px;
+  font-weight: bold;
 }
 
 .top-pad {
