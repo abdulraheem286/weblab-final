@@ -29,14 +29,15 @@ h1 {
   padding-top: 70px;
   padding-left: 520px;
   padding-bottom: 70px;
+  display: inline;
 }
 
 .newProduct {
-  float: right;
+  display: inline;
 }
 
 .star {
-  color: rgb(69, 105, 11) !important;
+  color: rgb(175, 230, 88) !important;
 }
 
 .btn {
